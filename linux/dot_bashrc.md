@@ -1,9 +1,5 @@
+### ===== VIM & TMUX =====
 ```
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
-alias lsblkbat='lsblk | bat -l conf -p'
-
 alias nv='nvim'
 alias vi='nvim'
 alias vim='nvim'
@@ -11,8 +7,6 @@ alias vim='nvim'
 alias t='tmux'
 alias ta='tmux attach'
 alias tl='tmux ls'
-
-alias cpwd="pwd | xclip -selection clipboard"
 ```
 
 ### ===== NAVIGATION =====
@@ -22,14 +16,16 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias ~='cd ~'
 alias -- -='cd -'
+alias cpwd="pwd | xclip -selection clipboard"
 ```
 
 ### ===== LS =====
 ```
 alias ls='ls --color=auto'
-alias ll='ls -lah'
+alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+alias lsblkbat='lsblk | bat -l conf -p'
 ```
 
 ### ===== SAFETY =====
