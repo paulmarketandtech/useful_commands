@@ -13,8 +13,9 @@ alembic upgrade head
 
 ##### Other useful commands
 ```
-alembic current          # show current revision
-alembic history          # show all migrations
-alembic downgrade -1     # go back one migration
-alembic downgrade base   # reset everything
+alembic current           # show current revision
+alembic history --verbose # show all migrations
+alembic downgrade -1      # go back one migration
+alembic downgrade base    # reset everything
+alembic revision -m "msg" # generate empty migration
 ```
