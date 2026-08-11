@@ -15,3 +15,9 @@ Open .md file and press:
 <leader>cp (usually Space + c + p)
 ```
 and it should open a new tab in a browser with your markdown file
+
+--- 
+### When pyright is complaining with import errors
+```
+# noqa: E402
+```
